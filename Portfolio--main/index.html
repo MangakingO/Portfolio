@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oscar Barrios Jimenez - Portfolio</title>
+  <style>
+
+  h1 {
+    font-size: 40px;
+  }
+
+      /* Styled summary */
+  #summary {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  /* Styled technical skills */
+  #technical-skills {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Additional styling for headings */
+  h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #008fc7;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+    /* Reset default margin and padding */
+    body, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Background color and font */
+    body {
+      background-color: #f7f7f7;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-image: url("Banner.png");
+      background-size: cover;
+      background-position: center;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+
+    /* Main content styles */
+    main {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    /* Project styles */
+    .project {
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    /* Flexbox for logos */
+    #contact ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    #contact ul li {
+      margin: 0 1rem;
+    }
+
+    /* Make logos smaller */
+    .linkedinimg, .githubimg, .emailimg {
+      width: 40px;
+      height: 40px;
+    }
+
+    a {
+      color: rgb(16, 28, 199);
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Oscar Barrios Jimenez</h1>
+    <h2>Experienced Full-Stack Software Engineer</h2>
+  </header>
+
+  <main>
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>Experienced Full-Stack Software Engineer with a strong proficiency in front-end and back-end programming, specializing in JavaScript, React, HTML, CSS, API implementation, Node.js, Express, PostgreSQL, and frameworks like Bootstrap. Demonstrated ability to address customer inquiries and resolve concerns effectively. Eager to transition into a backend developer role, applying technical expertise and transferable skills to design and implement robust and efficient solutions, contributing to success in a collaborative environment.</p>
+    </section>
+
+    <section id="technical-skills">
+      <h2>Technical Skills</h2>
+      <p>Frontend: HTML, CSS, JavaScript, React, jQuery<br>
+      Backend: Node.js, Express, RESTful APIs, PostgreSQL<br>
+      Tools: Mocha, Chai, Knex, Git, GitHub, Heroku, Node Package Manager, Visual Studio Code</p>
+      <p>Other Skills: Fluent in Spanish, Front-end Development, Back-end Development, API Implementation, Security Management, Quality Control, Inventory Management</p>
+    </section>
+
+    <section id="software-projects">
+      <h2>Software Engineering Projects</h2>
+      <div class="project">
+        <h3>WeLoveMovies | <a href="project-link">Link</a></h3>
+        <p>Led backend development for WeLoveMovies, a comprehensive movie website, by setting up databases and creating RESTful API routes for movie data, theaters, and reviews.</p>
+        <p>Implemented data retrieval and manipulation using Knex.js, wrote database queries, and employed RESTful design principles to optimize API interactions.</p>
+        <p>Technology: Node.js, Express.js, Knex.js, SQLite database, RESTful API design principles.</p>
+      </div>
+      <div class="project">
+        <h3>Restaurant Reservation Application | <a href="project-link">Link</a></h3>
+        <p>Full stack reservation and table management system.</p>
+        <p>Implemented react router and express to build a RESTful API in order to make HTTP requests for all of the reservation data stored on the connected PostgreSQL database.</p>
+        <p>Created CRUD functions and Knex queries to handle data going to and coming from the database.</p>
+        <p>Used Git to track changes and versions while keeping sensitive information from being pushed to repositories.</p>
+        <p>Technology: React, Node.js, Express, Knex and PostgreSQL.</p>
+      </div>
+      <div class="project">
+        <h3>GrubDash API Application | <a href="https://github.com/MangakingO/GrubDash">Link</a></h3>
+        <p>Assembled the back end of a movie website allowing any user to search for their favorite movies.</p>
+        <p>Used CRUD methods for reviews, and view theaters and movies that are showing.</p>
+        <p>Applied router and controller functions to retrieve a user's specific requests.</p>
+        <p>Technology: Node.js, Express, and Knex. Version control with Git.</p>
+      </div>
+       <div class="project">
+        <h3>Flash Card Application | <a href="https://github.com/MangakingO/Flashcard-o-matic">Link</a></h3>
+        <p>Developed a React-based web application, Flashcard-o-matic, to facilitate interactive learning using digital flashcards.</p>
+        <p>Implemented features such as creating and managing decks of flashcards, adding, editing, and deleting cards within decks, and a study mode with a flip card mechanism.</p>
+        <p>Leveraged React and React Router for the frontend, integrated Bootstrap 4 for styling, and employed json-server to provide API functionality for managing decks and cards.</p>
+        <p>Technology: React, React Router, Bootstrap 4 (for styling), json-server (for API server)</p>
+      </div>
+        <div class="project">
+        <h3>Recipe Tracking Application | <a href="https://github.com/MangakingO/Recipe-Tracking">Link</a></h3>
+        <p>Developed the app using the React framework, a popular JavaScript library for building user interfaces. React's component-based architecture facilitated the creation of dynamic and interactive UI elements.</p>
+        <p>Utilized Cascading Style Sheets (CSS) to style the app's user interface, implementing fonts, colors, layout structures, and responsive design. CSS ensured the app's visual consistency and user-friendly appearance.</p>
+        <p>Technology: React, CSS, npm management.</p>
+      </div>
+      <div class="project">
+        <h3>Contact Book | <a href="https://github.com/MangakingO/Contact-Book">Link</a></h3>
+        <p>Developed a dynamic contact book using JavaScript and JSDOM, enabling contact rendering, filtering, and modification.</p>
+        <p>Implemented structured functions for rendering contacts, filtering by city, and handling contact deletions, showcasing proficiency in JavaScript.</p>
+        <p>Demonstrated effective event handling and DOM manipulation, enhancing user experience in a project with a focus on structured code organization and functionality.</p>
+        <p>Technology: JavaScript, JSDOM, HTML, and CSS.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Contact Me:</p>
+    <ul>
+  <li><a href="https://www.linkedin.com/in/oscar-barrios-jimenez-4146501a1"><img src="linkedin.png" alt="LinkedIn icon" class="linkedinimg"></a></li>
+  <li><a href="https://github.com/MangakingO"><img src="GitHub.png" alt="GitHub icon" class="githubimg"></a></li>
+  <li><a href="mailto:barriososcar001@yahoo.com"><img src="email.png" alt="Email icon" class="emailimg"></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
